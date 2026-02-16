@@ -26,9 +26,9 @@ SHOP_NAME = "Secure Surf Zone"
 BKASH = "01642012385"
 NAGAD = "01788098356"
 
-TOKEN = os.environ.get("BOT_TOKEN", "YOUR_BOT_TOKEN")
-PUBLIC_URL = os.environ.get("PUBLIC_URL", "").rstrip("/")
-ADMIN_CHAT_ID = int(os.environ.get("ADMIN_CHAT_ID", "123456789"))
+TOKEN = os.environ.get("BOT_TOKEN", "8315570920")
+PUBLIC_URL = os.environ.get("PUBLIC_URL", "http://t.me/SccureSurfZoonex_bot").rstrip("/")
+ADMIN_CHAT_ID = int(os.environ.get("ADMIN_CHAT_ID", "8273597769"))
 
 DB = "shop.db"
 NAME, PHONE, PAYMENT, TRX = range(4)
